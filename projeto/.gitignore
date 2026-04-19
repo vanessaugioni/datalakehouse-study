@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+
+# Poetry
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark / Delta / Iceberg (dados temporários locais)
+spark-warehouse/
+derby.log
+metastore_db/
+
+# MkDocs
+site/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
