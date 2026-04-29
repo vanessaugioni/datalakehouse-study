@@ -1,9 +1,9 @@
 {
   "format-version" : 2,
-  "table-uuid" : "b2d9dd25-46ea-4003-bfbf-ce525a28a6c2",
+  "table-uuid" : "1e5d8156-e0c9-4b72-b087-fab07597e726",
   "location" : "/home/gabriel/GitHub/datalakehouse-study/notebooks/tmp/iceberg_warehouse/default/iceberg_events",
   "last-sequence-number" : 2,
-  "last-updated-ms" : 1777241686775,
+  "last-updated-ms" : 1777437647944,
   "last-column-id" : 4,
   "current-schema-id" : 1,
   "schemas" : [ {
@@ -65,20 +65,20 @@
     "owner" : "gabriel",
     "write.parquet.compression-codec" : "zstd"
   },
-  "current-snapshot-id" : 3006586762163563037,
+  "current-snapshot-id" : 6598174834384201436,
   "refs" : {
     "main" : {
-      "snapshot-id" : 3006586762163563037,
+      "snapshot-id" : 6598174834384201436,
       "type" : "branch"
     }
   },
   "snapshots" : [ {
     "sequence-number" : 1,
-    "snapshot-id" : 6688877470066264179,
-    "timestamp-ms" : 1777241648308,
+    "snapshot-id" : 6740213276046522860,
+    "timestamp-ms" : 1777437641713,
     "summary" : {
       "operation" : "append",
-      "spark.app.id" : "local-1777241638296",
+      "spark.app.id" : "local-1777437634898",
       "added-data-files" : "3",
       "added-records" : "3",
       "added-files-size" : "2656",
@@ -90,16 +90,16 @@
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0"
     },
-    "manifest-list" : "/home/gabriel/GitHub/datalakehouse-study/notebooks/tmp/iceberg_warehouse/default/iceberg_events/metadata/snap-6688877470066264179-1-d704c09d-bf82-482e-acc6-d6a6bd76bd35.avro",
+    "manifest-list" : "/home/gabriel/GitHub/datalakehouse-study/notebooks/tmp/iceberg_warehouse/default/iceberg_events/metadata/snap-6740213276046522860-1-25666788-d4d0-4675-8125-a5c5eac322d9.avro",
     "schema-id" : 0
   }, {
     "sequence-number" : 2,
-    "snapshot-id" : 3006586762163563037,
-    "parent-snapshot-id" : 6688877470066264179,
-    "timestamp-ms" : 1777241686775,
+    "snapshot-id" : 6598174834384201436,
+    "parent-snapshot-id" : 6740213276046522860,
+    "timestamp-ms" : 1777437647944,
     "summary" : {
       "operation" : "append",
-      "spark.app.id" : "local-1777241638296",
+      "spark.app.id" : "local-1777437634898",
       "added-data-files" : "1",
       "added-records" : "1",
       "added-files-size" : "1121",
@@ -111,26 +111,26 @@
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0"
     },
-    "manifest-list" : "/home/gabriel/GitHub/datalakehouse-study/notebooks/tmp/iceberg_warehouse/default/iceberg_events/metadata/snap-3006586762163563037-1-c19b2f6f-f373-4d06-955d-08ae32cbe6f5.avro",
+    "manifest-list" : "/home/gabriel/GitHub/datalakehouse-study/notebooks/tmp/iceberg_warehouse/default/iceberg_events/metadata/snap-6598174834384201436-1-a1bf554d-f541-4224-a4e6-63e5fe609467.avro",
     "schema-id" : 1
   } ],
   "statistics" : [ ],
   "partition-statistics" : [ ],
   "snapshot-log" : [ {
-    "timestamp-ms" : 1777241648308,
-    "snapshot-id" : 6688877470066264179
+    "timestamp-ms" : 1777437641713,
+    "snapshot-id" : 6740213276046522860
   }, {
-    "timestamp-ms" : 1777241686775,
-    "snapshot-id" : 3006586762163563037
+    "timestamp-ms" : 1777437647944,
+    "snapshot-id" : 6598174834384201436
   } ],
   "metadata-log" : [ {
-    "timestamp-ms" : 1777241644503,
+    "timestamp-ms" : 1777437638165,
     "metadata-file" : "/home/gabriel/GitHub/datalakehouse-study/notebooks/tmp/iceberg_warehouse/default/iceberg_events/metadata/v1.metadata.json"
   }, {
-    "timestamp-ms" : 1777241648308,
+    "timestamp-ms" : 1777437641713,
     "metadata-file" : "/home/gabriel/GitHub/datalakehouse-study/notebooks/tmp/iceberg_warehouse/default/iceberg_events/metadata/v2.metadata.json"
   }, {
-    "timestamp-ms" : 1777241686243,
+    "timestamp-ms" : 1777437647336,
     "metadata-file" : "/home/gabriel/GitHub/datalakehouse-study/notebooks/tmp/iceberg_warehouse/default/iceberg_events/metadata/v3.metadata.json"
   } ]
 }
