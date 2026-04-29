@@ -92,7 +92,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/GabrielNM12/datalakehouse-study.git
+git clone https://github.com/vanessaugioni/datalakehouse-study.git
 cd datalakehouse-study
 ```
 
