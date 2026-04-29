@@ -32,13 +32,14 @@ As explicações sobre as tecnologias utilizadas estão disponíveis no MkDocs d
 
 ```
 datalakehouse-study/
+├── docs/                     # Fontes do MkDocs
 ├── notebooks/
+|   ├── tmp                   # Gerado automaticamente pelo Spark
 │   ├── delta_lake.ipynb      # Notebook Delta Lake
 │   └── iceberg.ipynb         # Notebook Apache Iceberg
-├── docs/                     # Fonte do MkDocs
 ├── warehouse/                # Gerado automaticamente pelo Spark
-├── pyproject.toml            # Dependências gerenciadas pelo Poetry
 ├── poetry.lock
+├── pyproject.toml            # Dependências gerenciadas pelo Poetry
 └── README.md
 ```
 
